@@ -4,7 +4,7 @@ import pandas as pd
 
 # === CONFIGURATION ===
 csv_path = 'simulated_transactions.csv'
-firebase_key_path = '/Users/user/Downloads/atechcoins-15b8b-firebase-adminsdk-fbsvc-6d47e10bfd.json'
+firebase_key_path = '***************'
 collection_name = 'transactions'
 
 # === FIREBASE INIT ===

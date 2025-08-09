@@ -11,8 +11,8 @@ db = firestore.client()
 # === MySQL Setup ===
 mysql_conn = mysql.connector.connect(
     host="localhost",
-    user="root",  # use your actual username
-    password="Mahrio3631#",
+    user="*****",  # use your actual username
+    password="*******#",
     database="fintech_data"
 )
 cursor = mysql_conn.cursor()

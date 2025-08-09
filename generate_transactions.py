@@ -33,4 +33,4 @@ def generate_transaction_data(n):
 # Generate and save to CSV
 df = generate_transaction_data(num_records)
 df.to_csv('simulated_transactions.csv', index=False)
-print("✅ Simulated transaction data saved to 'simulated_transactions.csv'")
+print("Simulated transaction data saved to 'simulated_transactions.csv'")
