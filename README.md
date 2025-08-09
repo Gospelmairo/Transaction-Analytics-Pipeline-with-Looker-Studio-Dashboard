@@ -1,4 +1,10 @@
 # Transaction Analytics Pipeline with Looker Studio Dashboard
+
+## 📸 Screenshots
+
+### Transaction Dashboard
+![Dashboard Screenshot](screenshots.jpg)
+
 ## 📌 Overview
 
 This project simulates transaction events, processes them through a data pipeline, and visualizes insights in a Looker Studio dashboard.
@@ -31,42 +37,38 @@ It covers:
 ## Setup Instructions
 
 ### 1️ Simulate and Save CSV
-```bash
 python generate_transactions.py
-```
 
 
 ### 2 Upload to Firebase
 python upload_to_firebase.py
 
 ### 3 ETL to MySQL
+python firebase_to_mysql.py
 
 
 ### 4 Export Clean Data
-
+mysqldump -u USER -pPASSWORD DATABASE_NAME > clean_data.csv
 
 
 ### 5 Upload to Looker Studio
 - Go to Looker Studio
 - Create Data Source → CSV Upload → Select clean_data.csv
 - Create calculated fields:
--- transaction_day
-
--- transaction_hour
-
--- success_flag
-
--- failure_flag
+    - transaction_day
+    - transaction_hour
+    - success_flag
+    - failure_flag
 
 - Build visualizations
 
-## Dashboard Visuals
+## 📊 Dashboard Visuals
 - Daily/Weekly Transaction Volume
 - Success vs Failure Rates
 - Top Users by Transaction Amount
 - Peak Transaction Hours (Heatmap)
 
-## Challenges & Solutions
+## 🚀 Challenges & Solutions
 | Challenge                             | Solution                                    |
 | ------------------------------------- | ------------------------------------------- |
 | MySQL not connecting to Looker Studio | Used CSV upload as alternative              |
