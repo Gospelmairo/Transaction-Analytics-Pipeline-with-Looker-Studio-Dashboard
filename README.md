@@ -30,4 +30,10 @@ It covers:
 
 ## Setup Instructions
 
+### 1️⃣ Simulate and Save CSV
+```bash
+python generate_transactions.py
+```
+
+
 
