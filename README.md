@@ -1,9 +1,5 @@
 # Transaction Analytics Pipeline with Looker Studio Dashboard
 
-## 📸 Screenshots
-
-### Transaction Dashboard
-![Dashboard Screenshot](/Users/user/Desktop/atechcoins/screenshots.jpg)
 
 ## 📌 Overview
 
@@ -76,6 +72,9 @@ mysqldump -u USER -pPASSWORD DATABASE_NAME > clean_data.csv
 | TIME/DATE parsing errors              | Converted timestamp using `DATETIME` format |
 
 
+
+## Screenshots
+https://lookerstudio.google.com/reporting/7f312eb6-52c7-4f1b-8d7c-8b252c12a2cc
 
 
 
