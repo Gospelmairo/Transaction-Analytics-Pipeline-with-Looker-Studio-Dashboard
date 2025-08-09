@@ -3,7 +3,7 @@
 ## 📸 Screenshots
 
 ### Transaction Dashboard
-![Dashboard Screenshot](screenshots.jpg)
+![Dashboard Screenshot](/Users/user/Desktop/atechcoins/screenshots.jpg)
 
 ## 📌 Overview
 
